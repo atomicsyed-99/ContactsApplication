@@ -34,3 +34,7 @@ Check:
 Please check that your project folder looks like this at the end of cloning this repository and installing the python virtual environment:
 ![](Screenshots/Project_Folder.PNG)
 
+
+All other screenshots of the various pages can be found in the "Screenshots" folder!
+For any queries on how to run the application: Please add it in Issues or mail me at :syedishahmed99@gmail.com.
+
