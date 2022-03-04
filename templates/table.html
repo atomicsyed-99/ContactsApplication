@@ -1,0 +1,24 @@
+<div align="center" class="border"></div>
+<table> 
+    <thead> 
+    <tr> 
+        <th>ID</th> 
+        <th>Name</th>
+        <th>Phone Number</th> 
+        <th>Email</th>
+    </tr> 
+    </thead> 
+    <tbody> 
+        {% for row in contacts %}  
+            <tr> 
+                <td>{{row.id}}</td> 
+                <td>{{row.name}}</td> 
+                <td>{{row.PhNo}}</td>
+                <td>{{row.Email}}</td>
+            </tr> 
+        {% endfor %} 
+    </tbody> 
+</table> 
+<br></br>
+<a href="{{ url_for('index') }}" class="btn">Add More Contacts</a>
+</div>
