@@ -3,33 +3,34 @@ A Contact Management Web Application built using a MySQL Backend database system
 
 STEPS TO RUN THIS PROJECT:
 
-1. CREATE A PROJECT FOLDER IN AN IDE OF YOUR CHOICE. NAME THE PROJECT FOLDER WITH ANY NAME OF YOUR CHOICE.
-2. INSTALL A VIRTUAL PYTHON ENVIRONMENT BY USING THE FOLLOWING COMMAND: py -3 -m venv venv
-3. ACTIVATE THE VIRTUAL ENVIRONMENT BY USING THE FOLLOWING COMMAND: venv\Scripts\activate
-4. INSTALL FLASK WITHIN THE VIRTUAL ENVIRONMENT IF NOT ALREADY INSTALLED: pip install Flask
-5. INSTALL MYSQL WORKBENCH TO CREATE THE BACKEND DATABASE: https://dev.mysql.com/downloads/workbench/
-6. NOW INSTALL ‘mysqlbd’ MODULE IN YOUR venv: pip install flask-mysqldb
-7. OPEN THE MYSQL WORKBENCH AND CREATE A NEW PROJECT AND ADD THE CODE PRESENT IN THE "database.sql" FILE . PASTE THE CODE AND EXECUTE IT.
-8. NOW CLONE THIS GITHUB REPOSITORY INTO THE PROJECT FOLDER.
-9. OPEN A TERMINAL AND RUN THIS COMMAND : flask run
-10. THIS WILL LAUNCH THE FLASK SERVER FOR THE WEB APPLICATION
-11. NOW OPEN UP THE LINK: http://127.0.0.1:5000/ IN A BROWSER OF YOUR CHOICE (PREFERABLY GOOGLE CHROME)
-12. THIS WILL OPEN UP THE LOGIN PAGE IN YOUR BROWSER.
-13. IF YOU ARE A NEW USER, CLICK AT THE SIGN UP LINK IN THE BOTTOM AND ADD YOUR DETAILS ON THE "REGISTER" PAGE
-14. IF YOU ARE ALREADY REGISTERED, ADD YOUR DETAILS IN THE LOGIN FORM AND LOG INTO THE APP. THIS WILL OPEN THE CONTACTS FORM AND THE CONTACTS LIST
-15. IF YOU ARE A REGISTERED USER , BUT HAVE FORGOTTEN YOUR PASSWORD, CLICK ON THE "RESET PASSWORD" LINK AT THE BOTTOM. THIS WILL LAUNCH THE RESET PASSWORD PAGE.
+1. Create a project folder in an IDE of your choice. Name the project folder with any name of your choice.
+2. Install a virtual python environment by using the following command: py -3 -m venv venv
+3. Activate the virtual environment by using the following command: venv\scripts\activate
+4. Install Flask within the virtual environment if not already installed: pip install flask
+5. Install MySQL workbench to create the backend database: https://dev.mysql.com/downloads/workbench/
+6. Now install ‘mysqlbd’ module in your venv: pip install flask-mysqldb
+7. Open the mysql workbench and create a new project and add the code present in the "database.sql" file . paste the code and execute it.
+8. Now clone this github repository into the project folder.
+9. Open a terminal and run this command : flask run
+10. This will launch the flask server for the web application
+11. Now open up the link: http://127.0.0.1:5000/ in a browser of your choice (preferably google chrome)
+12. This will open up the login page in your browser.
+13. If you are a new user, click at the sign up link in the bottom and add your details on the "register" page
+14. If you are already registered, add your details in the login form and log into the app. this will open the contacts form and the contacts list
+15. If you are a registered user , but have forgotten your password, click on the "reset password" link at the bottom. This will launch the reset password page.
 
-MODULES COMPLETED:
-ALL THE FOUR MODULES HAVE BEEN IMPLEMENTED AS PER THE INSTRUCTIONS GIVEN.
+Modules completed:
+All the four modules have been implemented as per the instructions given.
 
-FUNCTIONALITIES LEFT TO BE IMPLEMENTED:
-A. TO IMPLEMENT A FUNCTION THAT SENDS A RESET PASSWORD LINK TO THE REGISTERED MAIL ID OF THE USER . THIS CAN BE PERSONALIZED BY USING THE SECRET KEY AND HASHING IT. DUE TO LACK OF TIME , THIS FUNCTIONALITY COULDNT BE IMPLEMENTED. IT COULD BE IMPLEMENTED BY USING JSON Token SERIALIZER MODULE IN FLASK.
+Functionalities left to be implemented:
+A. to implement a function that sends a reset password link to the registered mail id of the user . This can be personalized by using the secret key and hashing it. Due to lack of time , this functionality couldnt be implemented. It could be implemented by using JSON token serializer module in flask.
 
-B. THE CONTACTS LIST NEEDS TO BE AT THE BOTTOM OF THE CONTACTS FORM AND NOT AT THE SIDE OF IT. THIS NEEDS A BIT OF RESIZING OF THE TABLE AND THE FORM AS WELL AS SOME CSS-BASED POSITIONING. 
+B. The contacts list needs to be at the bottom of the contacts form and not at the side of it. This needs a bit of resizing of the table and the form as well as some CSS-based positioning. 
 
-C. THE RESET PASSWORD BACKGROUND IS A BIT FLAWED. THIS NEEDS TO LOOK INTO AS THE TEXT IS COMING OUT OF THE BOX.
+C. The reset password background is a bit flawed. This needs to look into as the text is coming out of the box.
 
-CHECK:
+Check:
 
-PLEASE CHECK THAT YOUR PROJECT FOLDER LOOKS LIKE THIS AT THE END OF CLONING THIS REPOSITORY AND INSTALLING THE PYTHON VIRTUAL ENVIRONMENT:
+Please check that your project folder looks like this at the end of cloning this repository and installing the python virtual environment:
+![]()
 
