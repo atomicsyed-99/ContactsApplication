@@ -32,5 +32,5 @@ C. The reset password background is a bit flawed. This needs to look into as the
 Check:
 
 Please check that your project folder looks like this at the end of cloning this repository and installing the python virtual environment:
-![]()
+![](Screenshots/Project_Folder.PNG)
 
